@@ -9,11 +9,12 @@ module.exports = {
         //             { text: 'English', link: '/en' }
         //         ]
         //     },
-        //     { text: 'About Us', link: "http://ctw-inc.net/contact-us" }
+        //     { text: 'About Us', link: "" }
         // ],
         base: "/docs/",
         sidebar: [
-            '/'
+            '/',
+            '/template.html'
         ],
         sidebarDepth: 3,
         search: true,
